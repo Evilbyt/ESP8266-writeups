@@ -2,7 +2,7 @@
 
 **Author:** A S Sumith  
 **Lab Type:** Wireless Security  
-**Date:** [Add Date]
+**Date:** [12-02-2025]
 
 ---
 
@@ -26,12 +26,12 @@ Demonstrate how an ESP8266 running *Deauther* firmware can send Wi-Fi deauthenti
 ## 🗂️ Lab Setup
 
 1. Set up a **test Wi-Fi AP**:  
-   - SSID: `LabNetwork`
+   - SSID: `Evilnet`
    - Open or WPA2 (doesn’t matter for deauth)
 
-2. Connect a test device (phone/laptop) to `LabNetwork`.
+2. Connect a test device (phone/laptop) to `Evilnet`.
 
-3. Flash **ESP8266** with [ESP8266 Deauther](https://github.com/SpacehuhnTech/esp8266_deauther).
+3. Flash **ESP8266** with [ESP8266 Deauther](https://github.com/Evilbyt/tools/esp8266_deauther).
 
 4. Connect to ESP8266 web interface:
    - ESP hosts its own AP, usually `pwned` or `deauther`.
@@ -42,7 +42,7 @@ Demonstrate how an ESP8266 running *Deauther* firmware can send Wi-Fi deauthenti
 
 ✅ 1. Scan for Wi-Fi networks in the Deauther interface.
 
-✅ 2. Select `LabNetwork` as the target AP.
+✅ 2. Select `Evilbyt` as the target AP.
 
 ✅ 3. Select a client (your test device).
 
