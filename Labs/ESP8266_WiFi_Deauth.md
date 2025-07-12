@@ -31,7 +31,7 @@ Demonstrate how an ESP8266 running *Deauther* firmware can send Wi-Fi deauthenti
 
 2. Connect a test device (phone/laptop) to `Evilnet`.
 
-3. Flash **ESP8266** with [ESP8266 Deauther](https://github.com/Evilbyt/tools/esp8266_deauther).
+3. Flash **ESP8266** with [ESP8266 Deauther](https://github.com/SpacehuhnTech/esp8266_deauther).
 
 4. Connect to ESP8266 web interface:
    - ESP hosts its own AP, usually `pwned` or `deauther`.
@@ -60,6 +60,9 @@ Demonstrate how an ESP8266 running *Deauther* firmware can send Wi-Fi deauthenti
 
 ![esp8266-webui](../assets/esp8266-webui.png)  
 *ESP8266 Deauther web interface*
+
+![wifi-connect](../assets/wifi-connect.png)  
+*Test laptop connected*
 
 ![wifi-disconnect](../assets/wifi-disconnect.png)  
 *Test laptop repeatedly disconnected*
